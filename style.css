@@ -151,3 +151,9 @@ hr{
 .add-btn>img:hover{
     cursor: pointer;   
 }
+.item{
+    border-radius: 5px;
+}
+.abc:hover{
+    cursor: pointer;
+}

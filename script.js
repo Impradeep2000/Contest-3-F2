@@ -19,14 +19,14 @@ function displayMenuItems(menuItems){
         const card = document.createElement('div');
         card.className = "card";
         card.innerHTML=`
-        <img src="${item.imgSrc}" alt="${item.name}">
+        <img class=item src="${item.imgSrc}" alt="${item.name}">
         <div class="card-bottom">
             <div>
-                <h4>${item.name}</h4>
+                <h3>${item.name}</h3>
                 <p>${item.price.toFixed(2)}/-</p>
             </div>
             <div>
-            <img src="./images/Group 4.svg" alt="add">
+            <img class=abc src="./images/Group 4.svg" alt="add">
             </div>
         </div>
         `;
