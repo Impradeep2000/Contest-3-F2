@@ -91,7 +91,11 @@ hr{
     background-color:#272A30;
     border: none;
     border-radius: 5px;
-    padding-left: 10px;
+    padding-left: 50px;
+}
+#icon1{
+    position: absolute;
+    padding-left: 20px;
 }
 .btn{
     margin: 10px 0px;
