@@ -13,7 +13,7 @@ async function getMenu(){
 // funtion for displaying menuItems in card
 
 function displayMenuItems(menuItems){
-    const container = document.querySelector('.menu');
+    const container = document.getElementsByClassName('menu')[0];
 
     menuItems.forEach(item=>{
         const card = document.createElement('div');
